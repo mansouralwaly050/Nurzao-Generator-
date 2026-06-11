@@ -1,16 +1,6 @@
 [build]
-  command = "pnpm install && pnpm build"
-  functions = "server"
-  publish = "client/dist"
-
-[build.environment]
-  NODE_VERSION = "22"
-  NODE_ENV = "production"
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+  command = "npm install"
+  publish = "client"
 
 [[redirects]]
   from = "/*"
