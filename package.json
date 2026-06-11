@@ -1,29 +1,6 @@
 {
-  "name": "nurzao-consulting-marketplace",
+  "name": "nurzao-consulting",
   "version": "1.0.0",
-  "description": "منصة استشارات ذكية - Consulting Marketplace Platform",
-  "type": "module",
-  "scripts": {
-    "dev": "echo 'Development mode'",
-    "build": "echo 'Build complete'",
-    "preview": "echo 'Preview mode'"
-  },
-  "keywords": [
-    "consulting",
-    "marketplace",
-    "ai",
-    "platform"
-  ],
-  "author": "Nurzao",
-  "license": "MIT",
-  "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "typescript": "5.3.0"
-  },
-  "engines": {
-    "node": ">=22.0.0"
-  }
+  "description": "منصة الاستشارات الذكية",
+  "private": true
 }
